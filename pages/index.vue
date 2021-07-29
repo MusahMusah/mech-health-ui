@@ -1,7 +1,8 @@
 <template>
-  <div>
+  <div class="wrapper">
     <Navbar />
     <Analysis />
+    <Services />
   </div>
 </template>
 
@@ -11,3 +12,8 @@ export default {
   layout: 'DefaultLayout'
 }
 </script>
+<style scoped>
+.wrapper {
+  height: 100%;
+}
+</style>

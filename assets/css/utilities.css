@@ -108,6 +108,14 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 /* Alert */
 .alert {
   background-color: var(--light-color);
@@ -169,6 +177,9 @@
 
 .my-5 {
   margin: 4rem 0;
+}
+.my-6 {
+  margin: 4.5rem 0;
 }
 
 .m-1 {

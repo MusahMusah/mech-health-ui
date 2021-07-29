@@ -54,7 +54,7 @@
         <span class="progress-sm-text"> Minutes </span>
       </div>
     </div>
-    <div class="flex my-2">
+    <div class="flex my-6">
       <span class="text-center">More</span>
       <img
         src="@/assets/icons/arrow-right-icon.svg"
@@ -77,7 +77,7 @@ export default {
 @import url('~assets/css/circle-progress.css');
 
 .analysis-wrapper {
-  height: 25vh;
+  height: 100%;
 }
 
 .progress-items {
