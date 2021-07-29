@@ -105,7 +105,6 @@ export default {
   margin: 0 -1.2em;
   margin-top: 1.5em;
   margin-bottom: -0.5em;
-  padding: 0 2em;
   padding-top: 1em;
   justify-content: space-between;
   border-top: 1px solid #e0e0e0;

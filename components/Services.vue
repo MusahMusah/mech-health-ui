@@ -49,7 +49,10 @@
       </div>
     </div>
     <ModalCard :show-modal="showModal" @closeModal="reportEmergency" />
-    <Notification :show-notification="showNotification" @closeNotification="toggleNotification" />
+    <Notification
+      :show-notification="showNotification"
+      @closeNotification="toggleNotification"
+    />
   </div>
 </template>
 
@@ -79,7 +82,7 @@ export default {
           self.showModal = !this.showModal
           self.clickCount = 0
         }, this.delay)
-      } else {
+      } else if (this.clickCount > 1) {
         clearTimeout(this.timer)
         this.showNotification = !this.showNotification
         this.clickCount = 0
@@ -87,8 +90,8 @@ export default {
     },
     toggleNotification() {
       this.showNotification = !this.showNotification
-    }
-  }
+    },
+  },
 }
 </script>
 

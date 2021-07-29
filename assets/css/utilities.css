@@ -13,59 +13,6 @@
   margin: 10px;
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 30px;
-  cursor: pointer;
-  background: var(--primary-color);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-.btn-outline {
-  background-color: transparent;
-  border: 1px #fff solid;
-}
-
-.btn:hover {
-  transform: scale(0.98);
-}
-
-/* Backgrounds & colored buttons */
-.bg-primary,
-.btn-primary {
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
-.bg-secondary,
-.btn-secondary {
-  background-color: var(--secondary-color);
-  color: #fff;
-}
-
-.bg-dark,
-.btn-dark {
-  background-color: var(--dark-color);
-  color: #fff;
-}
-
-.bg-light,
-.btn-light {
-  background-color: var(--light-color);
-  color: #333;
-}
-
-.bg-primary a,
-.btn-primary a,
-.bg-secondary a,
-.btn-secondary a,
-.bg-dark a,
-.btn-dark a {
-  color: #fff;
-}
-
 /* Display Properties */
 
 .d-none {
@@ -257,4 +204,8 @@
 
 .p-5 {
   padding: 4rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

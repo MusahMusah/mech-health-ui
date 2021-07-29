@@ -14,7 +14,7 @@
           The hospital & your next of kin has been notified.
         </p>
       </div>
-      <span @click="closeNotification">
+      <span class="cursor-pointer" @click="closeNotification">
       <svg height="35" width="50"  aria-hidden="true"
       focusable="false" data-prefix="far" data-icon="times"
       role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" c
