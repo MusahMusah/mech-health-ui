@@ -1,17 +1,7 @@
 <template>
   <div class="navbar-container">
     <header class="navbar-header">
-      <div class="logo my-1">
-        <nuxt-link to="/">
-          <img
-            src="@/assets/images/logo.png"
-            width="80"
-            height="20"
-            class="navbar-img"
-            alt="navbar-logo"
-          />
-        </nuxt-link>
-      </div>
+      <Logo />
       <div class="spacer"></div>
       <nav class="navbar-items">
         <ul class="navbar-list">
@@ -53,7 +43,4 @@ export default {
   flex: 1;
 }
 
-.logo .navbar-img {
-  object-fit: contain;
-}
 </style>

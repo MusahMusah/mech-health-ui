@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ffffff;
-  --secondary-color: #0070ff;
+  --secondary-color: #75C1FB;
+  --black-color:  #333333;
   --fs-sm: .5rem;
   --fs-md: 1rem;
   --fs-lg: 2rem;
@@ -34,4 +35,8 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.navbar-img {
+  object-fit: contain;
 }
