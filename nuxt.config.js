@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'y',
+    title: 'Mech Health -- How to Report an Emergency',
     htmlAttrs: {
       lang: 'en'
     },
