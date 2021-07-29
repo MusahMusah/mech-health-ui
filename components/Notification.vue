@@ -57,6 +57,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-left: 2px solid green;
 }
 .notification-text {
   font-size: 0.9em;
