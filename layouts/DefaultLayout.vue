@@ -11,7 +11,4 @@ export default {
 </script>
 
 <style>
-  .layout {
-    background-color: gray;
-  }
 </style>
