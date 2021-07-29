@@ -105,6 +105,10 @@
   font-weight: bold;
 }
 
+.text-bolder {
+  font-weight: bolder;
+}
+
 /* Text sizes */
 .lead {
   font-size: 20px;

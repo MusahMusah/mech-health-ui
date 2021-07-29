@@ -36,7 +36,7 @@
           </p>
         </div>
       </div>
-      <div class="service">
+      <div class="service" @click="reportEmergency">
         <div class="service-icon">
           <img
             src="@/assets/icons/ambulance-icon.svg"
@@ -54,12 +54,22 @@
         </div>
       </div>
     </div>
+    <!-- <ModalCard :show-modal="showModal" @closeModal="reportEmergency" /> -->
   </div>
 </template>
 
 <script>
 export default {
   name: 'Services',
+  // data: () => ({
+  //   showModal: false,
+  // }),
+  methods: {
+    reportEmergency() {
+      // this.showModal = !this.showModal
+      this.$emit('openModal')
+    }
+  }
 }
 </script>
 
