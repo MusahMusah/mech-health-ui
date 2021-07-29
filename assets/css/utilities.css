@@ -89,19 +89,19 @@
 }
 
 .sm {
-  font-size: 1rem;
+  font-size: var(--fs-sm);
 }
 
 .md {
-  font-size: 2rem;
+  font-size: var(--fs-md);;
 }
 
 .lg {
-  font-size: 3rem;
+  font-size: var(--fs-lg);;
 }
 
 .xl {
-  font-size: 4rem;
+  font-size: var(--fs-xl);;
 }
 
 .text-center {
