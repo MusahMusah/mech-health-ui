@@ -66,6 +66,24 @@
   color: #fff;
 }
 
+/* Display Properties */
+
+.d-none {
+  display: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: block;
+}
+
 /* Text colors */
 .text-primary {
   color: var(--primary-color);
@@ -81,6 +99,10 @@
 
 .text-light {
   color: var(--light-color);
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 /* Text sizes */

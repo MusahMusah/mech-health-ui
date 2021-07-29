@@ -1,7 +1,7 @@
 <template>
   <div class="services-wrapper">
     <h4 class="text-center md services-title">Services</h4>
-    <div class="services text-center py-2">
+    <div class="services text-center">
       <div class="service">
         <div class="service-icon">
           <img
@@ -66,7 +66,6 @@ export default {
 <style scoped>
 .services {
   display: flex;
-  /* padding: 12vh 0; */
   justify-content: space-around;
   flex-direction: column;
 }
@@ -103,8 +102,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* left: 57px;
-  top: 469px; */
   background: #dceeff;
   border-radius: 4rem;
 }

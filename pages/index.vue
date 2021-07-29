@@ -3,6 +3,7 @@
     <Navbar />
     <Analysis />
     <Services />
+    <Footer />
   </div>
 </template>
 
