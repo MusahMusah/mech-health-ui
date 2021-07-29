@@ -63,7 +63,6 @@ export default {
     showModal: false,
     showNotification: false,
     clickCount: 0,
-    result: [],
     delay: 300,
     timer: null,
   }),
@@ -98,6 +97,7 @@ export default {
 <style scoped>
 .services-wrapper {
   margin-bottom: 5rem;
+  background: linear-gradient(180deg, #ffffff 26.04%, #f6fbff 100%);
 }
 
 .services {

@@ -28,7 +28,6 @@ html,
 body {
   font-family: 'Nunito', sans-serif;
   background-color: var(--primary-color);
-  /* background: linear-gradient(180deg, #ffffff 26.04%, #f6fbff 100%); */
 }
 
 ul {
