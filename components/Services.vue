@@ -14,9 +14,7 @@
         </div>
         <div class="service-text text-left">
           <h5 class="sm">Get checked</h5>
-          <p>
-            Take virtual assessment
-          </p>
+          <p>Take virtual assessment</p>
         </div>
       </div>
       <div class="service">
@@ -31,12 +29,10 @@
         </div>
         <div class="service-text text-left">
           <h5 class="sm">See a doctor</h5>
-          <p>
-            Book an appointment
-          </p>
+          <p>Book an appointment</p>
         </div>
       </div>
-      <div class="service" @click="reportEmergency">
+      <div class="service" @click="reportEmergencyPopup">
         <div class="service-icon">
           <img
             src="@/assets/icons/ambulance-icon.svg"
@@ -48,32 +44,51 @@
         </div>
         <div class="service-text text-left">
           <h5 class="sm">Report Emergency</h5>
-          <p>
-            Tap twice to alert the hospital
-          </p>
+          <p>Tap twice to alert the hospital</p>
         </div>
       </div>
     </div>
-    <!-- <ModalCard :show-modal="showModal" @closeModal="reportEmergency" /> -->
+    <ModalCard :show-modal="showModal" @closeModal="reportEmergency" />
   </div>
 </template>
 
 <script>
 export default {
   name: 'Services',
-  // data: () => ({
-  //   showModal: false,
-  // }),
+  data: () => ({
+    showModal: false,
+    clickCount: 0,
+    result: [],
+    delay: 200,
+    timer: null,
+  }),
   methods: {
     reportEmergency() {
-      // this.showModal = !this.showModal
-      this.$emit('openModal')
-    }
-  }
+      this.showModal = !this.showModal
+    },
+    reportEmergencyPopup(event) {
+      this.clickCount++
+      if (this.clickCount === 1) {
+        const self = this
+        this.timer = setTimeout(function () {
+          self.showModal = !this.showModal
+          self.clickCount = 0
+        }, this.delay)
+      } else {
+        clearTimeout(this.timer)
+        alert('hello')
+        this.clickCount = 0
+      }
+    },
+  },
 }
 </script>
 
 <style scoped>
+.services-wrapper {
+  margin-bottom: 5rem;
+}
+
 .services {
   display: flex;
   justify-content: space-around;
@@ -92,11 +107,12 @@ export default {
     margin-left: 1em;
   }
   .service-text {
-    margin-left: 2em
+    margin-left: 2em;
   }
 }
 
 .service {
+  cursor: pointer;
   background: var(--primary-color);
   flex-basis: 30%;
   display: flex;

@@ -31,7 +31,7 @@ export default {
   props: {
     showModal: {
       type: Boolean,
-      default: false,
+      default: true,
     },
   },
   methods: {
@@ -46,7 +46,7 @@ export default {
 .modal-overlay {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 130vh;
   left: 0;
   top: 0;
   z-index: 98;
@@ -54,6 +54,12 @@ export default {
   padding-top: 38vh;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 40rem) {
+  .modal-overlay {
+    height: 175vh;
+  }
 }
 
 .modal-content {
@@ -67,7 +73,9 @@ export default {
   background-color: #fff;
   border-radius: 16px;
   padding: 25px;
+  margin: 0 auto;
 }
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s;
