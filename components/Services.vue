@@ -49,6 +49,7 @@
       </div>
     </div>
     <ModalCard :show-modal="showModal" @closeModal="reportEmergency" />
+    <Notification :show-notification="showNotification" @closeNotification="toggleNotification" />
   </div>
 </template>
 
@@ -57,18 +58,22 @@ export default {
   name: 'Services',
   data: () => ({
     showModal: false,
+    showNotification: false,
     clickCount: 0,
     result: [],
-    delay: 200,
+    delay: 300,
     timer: null,
   }),
+  beforeMount() {
+    localStorage.removeItem('location-access')
+  },
   methods: {
     reportEmergency() {
       this.showModal = !this.showModal
     },
     reportEmergencyPopup(event) {
       this.clickCount++
-      if (this.clickCount === 1) {
+      if (this.clickCount === 1 && !localStorage.getItem('location-access')) {
         const self = this
         this.timer = setTimeout(function () {
           self.showModal = !this.showModal
@@ -76,11 +81,14 @@ export default {
         }, this.delay)
       } else {
         clearTimeout(this.timer)
-        alert('hello')
+        this.showNotification = !this.showNotification
         this.clickCount = 0
       }
     },
-  },
+    toggleNotification() {
+      this.showNotification = !this.showNotification
+    }
+  }
 }
 </script>
 

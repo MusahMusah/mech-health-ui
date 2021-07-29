@@ -16,9 +16,9 @@
           Meck helps you get healthcare even in an emergency!
         </p>
         <div class="modal-buttons">
-          <nuxt-link to="/" class="modal-link"> Don't Allow </nuxt-link>
+          <a class="modal-link" @click.prevent="toggleModal"> Don't Allow </a>
           <span class="spacer"></span>
-          <nuxt-link to="/" class="modal-link"> Allow </nuxt-link>
+          <a class="modal-link" @click.prevent="allowNotification"> Allow </a>
         </div>
       </div>
     </transition>
@@ -36,6 +36,10 @@ export default {
   },
   methods: {
     toggleModal() {
+      this.$emit('closeModal')
+    },
+    allowNotification() {
+      localStorage.setItem('location-access', true)
       this.$emit('closeModal')
     }
   }
@@ -108,7 +112,9 @@ export default {
 }
 
 .modal-link {
+  cursor: pointer;
   color: var(--secondary-color);
+  margin: 0 auto;
   font-weight: bold;
 }
 
