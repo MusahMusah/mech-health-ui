@@ -1,6 +1,6 @@
 <template>
   <div class="analysis-wrapper">
-    <h4 class="text-center md">Today</h4>
+    <h4 class="text-center sm">Today</h4>
     <div class="progress-items">
       <div class="progress-circle over50 p70">
         <span>
@@ -83,6 +83,7 @@ export default {
 .progress-items {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .progress-grow {
   font-size: 20px;
