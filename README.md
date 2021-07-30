@@ -41,7 +41,9 @@ $ yarn generate
 ![image](https://user-images.githubusercontent.com/51837314/127578890-c48e7efa-eb9f-4c75-9367-d32aa86048fd.png)
 
 
-![image](https://user-images.githubusercontent.com/51837314/127579023-ad85fb95-1d9e-4e5f-bf28-4a426d1cd273.png)
+
+![image](https://user-images.githubusercontent.com/51837314/127584369-67e286c2-0104-4665-881a-fe643b4dd822.png)
+
 
 
 
