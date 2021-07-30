@@ -29,7 +29,7 @@ $ yarn generate
 ![image](https://user-images.githubusercontent.com/51837314/127578049-ce8b28d9-b81e-4857-958e-c4b63f4ec4c8.png)
 
 
-![image](https://user-images.githubusercontent.com/51837314/127578078-f73b289e-d2ff-4710-aa97-50606fcf3c42.png)
+![image](https://user-images.githubusercontent.com/51837314/127586938-32581912-d14b-47e4-b3e5-611bbbcb7a5a.png)
 
 ## Images Of UI For Desktop View
 ![image](https://user-images.githubusercontent.com/51837314/127578870-1e0dedf8-e6f6-4773-bc68-faab3e8d9bf9.png)
@@ -39,6 +39,10 @@ $ yarn generate
 
 
 ![image](https://user-images.githubusercontent.com/51837314/127578890-c48e7efa-eb9f-4c75-9367-d32aa86048fd.png)
+
+
+![image](https://user-images.githubusercontent.com/51837314/127586802-8cd947e9-cf36-4d8b-baf7-125dab3e4f81.png)
+
 
 
 
