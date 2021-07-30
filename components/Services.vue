@@ -32,7 +32,7 @@
           <p>Book an appointment</p>
         </div>
       </div>
-      <div class="service" @click="reportEmergencyPopup">
+      <div class="service" @click="reportEmergencyPopup" @dblclick="dbTap">
         <div class="service-icon">
           <img
             src="@/assets/icons/ambulance-icon.svg"
@@ -70,6 +70,9 @@ export default {
     localStorage.removeItem('location-access')
   },
   methods: {
+    dbTap() {
+      this.showNotification = !this.showNotification
+    },
     reportEmergency() {
       this.showModal = !this.showModal
     },
@@ -83,7 +86,6 @@ export default {
         }, this.delay)
       } else if (this.clickCount > 1) {
         clearTimeout(this.timer)
-        this.showNotification = !this.showNotification
         this.clickCount = 0
       }
     },

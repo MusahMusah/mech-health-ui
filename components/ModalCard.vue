@@ -115,6 +115,7 @@ export default {
   color: var(--secondary-color);
   margin: 0 auto;
   font-weight: bold;
+  width: 100%;
 }
 
 .spacer {

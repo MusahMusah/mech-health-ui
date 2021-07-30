@@ -214,7 +214,7 @@
 
 
 /* Other Useful Utilities */
-.unselectable {
+.unselectable, html, body {
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
