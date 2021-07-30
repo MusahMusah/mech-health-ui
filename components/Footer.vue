@@ -52,7 +52,7 @@ export default {
 .app-footer {
   flex-shrink: 0;
   padding: 10px;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 10px;
   text-transform: uppercase;
 }

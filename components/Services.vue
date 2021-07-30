@@ -1,6 +1,6 @@
 <template>
   <div class="services-wrapper">
-    <h4 class="text-center md services-title">Services</h4>
+    <h4 class="text-center sm services-title">Services</h4>
     <div class="services text-center">
       <div class="service">
         <div class="service-icon">
@@ -13,7 +13,7 @@
           />
         </div>
         <div class="service-text text-left">
-          <h5 class="sm">Get checked</h5>
+          <h5 class="sm text-bold">Get checked</h5>
           <p>Take virtual assessment</p>
         </div>
       </div>
@@ -28,7 +28,7 @@
           />
         </div>
         <div class="service-text text-left">
-          <h5 class="sm">See a doctor</h5>
+          <h5 class="sm text-bold">See a doctor</h5>
           <p>Book an appointment</p>
         </div>
       </div>
@@ -43,7 +43,7 @@
           />
         </div>
         <div class="service-text text-left">
-          <h5 class="sm">Report Emergency</h5>
+          <h5 class="sm text-bold">Report Emergency</h5>
           <p>Tap twice to alert the hospital</p>
         </div>
       </div>
