@@ -6,8 +6,8 @@
         <div class="service-icon">
           <img
             src="@/assets/icons/doctor-icon.svg"
-            width="60"
-            height="30"
+            width="30"
+            height="25"
             class="navbar-img"
             alt="navbar-logo"
           />
@@ -21,8 +21,8 @@
         <div class="service-icon">
           <img
             src="@/assets/icons/kit-icon.svg"
-            width="60"
-            height="30"
+            width="30"
+            height="25"
             class="navbar-img"
             alt="navbar-logo"
           />
@@ -36,8 +36,8 @@
         <div class="service-icon">
           <img
             src="@/assets/icons/ambulance-icon.svg"
-            width="60"
-            height="30"
+            width="30"
+            height="25"
             class="navbar-img"
             alt="navbar-logo"
           />
