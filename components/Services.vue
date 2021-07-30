@@ -42,7 +42,7 @@
             alt="navbar-logo"
           />
         </div>
-        <div class="service-text text-left">
+        <div class="service-text text-left unselectable">
           <h5 class="sm text-bold">Report Emergency</h5>
           <p>Tap twice to alert the hospital</p>
         </div>
