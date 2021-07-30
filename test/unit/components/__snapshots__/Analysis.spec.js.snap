@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Analysis Component 1`] = `
+"<div class=\\"analysis-wrapper\\">
+  <h4 class=\\"text-center md\\">Today</h4>
+  <div class=\\"progress-items\\">
+    <div class=\\"progress-circle over50 p70\\"><span><img src=\\"@/assets/icons/calories-icon.svg\\" width=\\"80\\" height=\\"30\\" alt=\\"navbar-logo\\" class=\\"navbar-img\\"></span>
+      <div class=\\"left-half-clipper\\">
+        <div class=\\"first50-bar\\"></div>
+        <div class=\\"value-bar\\"></div>
+      </div> <span class=\\"progress-lg-text\\"> 213 </span> <span class=\\"progress-sm-text\\"> Calls </span></div>
+    <div class=\\"progress-circle progress-grow over50 p79\\"><span><img src=\\"@/assets/icons/feet-icon.svg\\" width=\\"80\\" height=\\"30\\" alt=\\"navbar-logo\\" class=\\"navbar-img\\"></span>
+      <div class=\\"left-half-clipper\\">
+        <div class=\\"first50-bar\\"></div>
+        <div class=\\"value-bar\\"></div>
+      </div> <span class=\\"progress-lg-text\\"> 5,022 </span> <span class=\\"progress-sm-text\\"> Steps </span></div>
+    <div class=\\"progress-circle p33\\"><span><img src=\\"@/assets/icons/moon-icon.svg\\" width=\\"80\\" height=\\"30\\" alt=\\"navbar-logo\\" class=\\"navbar-img\\"></span>
+      <div class=\\"left-half-clipper\\">
+        <div class=\\"first50-bar\\"></div>
+        <div class=\\"value-bar\\"></div>
+      </div> <span class=\\"progress-lg-text\\"> 4Hr55 </span> <span class=\\"progress-sm-text\\"> Minutes </span></div>
+  </div>
+  <div class=\\"flex my-6\\"><span class=\\"text-center\\">More</span> <img src=\\"@/assets/icons/arrow-right-icon.svg\\" width=\\"30\\" height=\\"20\\" alt=\\"navbar-logo\\" class=\\"navbar-img\\"></div>
+</div>"
+`;
